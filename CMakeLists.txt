@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.11.2)
+project(Median-Master VERSION 1.0 LANGUAGES C)
+
+add_subdirectory(Test_Decreasing_Sample)
+add_subdirectory(Test_Flat_Sample)
+add_subdirectory(Test_Increasing_Sample)
+add_subdirectory(Test_Init)
+add_subdirectory(Test_Middle_Around_Flat)
+add_subdirectory(Test_Random_Sample)
+add_subdirectory(Median_Library)
